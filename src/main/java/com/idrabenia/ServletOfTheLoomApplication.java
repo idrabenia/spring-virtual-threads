@@ -36,11 +36,11 @@ public class ServletOfTheLoomApplication {
 	}
 
 	@RestController
-	static class MyController {
+	static class Controller {
 
 		final JdbcTemplate jdbcTemplate;
 
-		MyController(JdbcTemplate jdbcTemplate) {
+		Controller(JdbcTemplate jdbcTemplate) {
 			this.jdbcTemplate = jdbcTemplate;
 		}
 
