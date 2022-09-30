@@ -35,7 +35,7 @@ public class VirtualThreadsMain {
         }
     }
 
-    record Response(String user, Integer order) {};
+    record Response(String user, Integer order) {}
 
     private static void runVirtualThreadPoolExample() {
         System.out.println("Example 3:");
